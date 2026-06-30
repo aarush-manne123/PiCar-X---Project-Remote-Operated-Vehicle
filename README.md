@@ -12,6 +12,7 @@ It's written so that **anyone can follow along** — whether you've never touche
 - Automatically start a script the instant it powers on, with no laptop involved
 - Stream a live webcam feed to any browser on the network
 - Be driven with a real joystick, wired to an Arduino, wirelessly bridged to the car over Wi-Fi
+- Speak text remotely from a Mac using a cloud-style hotkey and popup interface
 
 ## Materials
 
@@ -30,6 +31,7 @@ Each section below is self-contained, with its own README and, where relevant, i
 | 5 | [Streaming the Webcam](Sections/05-webcam-streaming/README.md) | Watching a live video feed in your browser |
 | 6 | [Wireless Joystick Control](Sections/06-joystick-control/README.md) | Driving the car with an Arduino + joystick over Wi-Fi |
 | 7 | [Extra AI Vision](Sections/07-Extra-AI-Vision/README.md) | Click "a" on your keyboard and have Groq AI analyze your image |
+| 8 | [Cloud Voice Broadcast](Sections/08-cloud-voice/README.md) | Trigger speech from a Mac hotkey and a popup dialog |
 
 ## A note on troubleshooting
 
