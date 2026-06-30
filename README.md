@@ -29,10 +29,20 @@ Each section below is self-contained, with its own README and, where relevant, i
 | 4 | [Running Headless on Boot](Sections/04-headless-boot/README.md) | Making a script start automatically with no laptop involved |
 | 5 | [Streaming the Webcam](Sections/05-webcam-streaming/README.md) | Watching a live video feed in your browser |
 | 6 | [Wireless Joystick Control](Sections/06-joystick-control/README.md) | Driving the car with an Arduino + joystick over Wi-Fi |
+| 7 | [Extra AI Vision] (Section/07-Extra-AI-Vision/README.md) | Click a on your keyboard and have Groq AI anylyze your image |
 
 ## A note on troubleshooting
 
 Almost everything in here came from genuinely debugging real problems along the way. Each README includes a **Troubleshooting** section at the bottom with the specific issues that came up, in case they help you too.
+
+## AI Vision Upgrade (Groq API) Extra
+You can now press the **"a"** key to take a snapshot from the PiCar-X camera, send it to Groq AI for an analysis, and have your computer speak the description out loud.
+
+### How to Run:
+1. Run `picar_camera_server.py` on your Raspberry Pi.
+2. Update the `PI_IP` and `GROQ_API_KEY` variables inside `ai_vision.py` on your computer.
+3. Run `python3 ai_vision.py` on your computer.
+4. Focus the terminal window and press `a` to trigger the AI sequence.
 
 ## How this project is organized
 
